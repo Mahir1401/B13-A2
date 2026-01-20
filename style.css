@@ -9,19 +9,22 @@
 }
 .navigation{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(26, 11, 46, 1);
   padding: 20px;
 }
 nav ul{
   display: flex;
-  gap: 10px;
+  gap: 40px;
   list-style: none;
 }
 nav ul li a{
   text-decoration: none;
   color: aliceblue;
+}
+.size{
+  padding: 0px;
 }
 .gradient{
 border-radius: 30px;
@@ -119,6 +122,10 @@ align-items: center;
   padding: 50px 200px 80px 200px;
   margin: 0px;
 }
+.podcast-title{
+  color: aliceblue;
+  font-size: 50px;
+}
 .first-des{
   color: lightgrey;
 }
@@ -149,6 +156,7 @@ align-items: center;
   align-items: center;
   gap: 120px;
   margin-top: 80px;
+  list-style-type: none;
 }
 .card{
   border: 2px;
@@ -184,10 +192,54 @@ align-items: center;
 .grid-section-title{
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 60px;
 }
 .grid-section{
 background: rgba(35, 14, 61, 1);
 padding: 80px 400px;
+}
+.footer-bg{
+  color: lightgrey;
+  background-image: url(./assets/footer-bg.png);
+  background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+width: 100%;
+height: 500px;
+}
+.footer-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.logo-border{
+list-style-type: none;
+border: 1px solid black;
+border-radius: 300px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin: 2px;
+padding: 6px;
+}
+.host-card{
+  display: flex;
+  background: rgba(53, 17, 101, 1);
+  border: 0px;
+  border-radius: 40px;
+  padding: 40px;
+}
+.host-card-title{
+  color: aliceblue;
+}
+.host-card-des{
+  color: lightgrey;
 }
