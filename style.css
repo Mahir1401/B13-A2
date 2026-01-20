@@ -32,32 +32,6 @@ gap: 4px;
 background-color: linear-gradient(45deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
 padding: 10px 16px;
 }
-/* .her{
-  background-image: url(./assets/hero-bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 760px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .back{
-  /* background-image: url(./assets/hero-circle.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 350px; */
-  /* padding-top: 10px; */
-  /* margin: 40px;*/
-
-/* .mic{
- /* display: flex;
- justify-content: center;
- align-items: end;
-} */ 
 .hero-card{
   display: flex;
   flex-direction: column;
@@ -134,4 +108,45 @@ align-items: center;
   box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
   margin-left: 320px;
   margin-top: -30px;
+}
+.Podcast{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(26, 11, 46, 1);
+  padding: 50px 200px 80px 200px;
+  margin: 0px;
+}
+.first-des{
+  color: lightgrey;
+}
+.down-border{
+  color: lightgrey;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 40px 90px 40px;
+}
+.list-title{
+  color: rgba(0, 255, 136, 1);
+  font-size: 48px;
+  padding: 0px;
+  margin: 0px;
+}
+.list-des{
+  color: lightgrey;
+  text-transform: uppercase;
+}
+.list-item{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.list-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  margin-top: 80px;
 }
