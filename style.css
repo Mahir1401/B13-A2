@@ -176,6 +176,10 @@ align-items: center;
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+  transition: gap 1s ease-in;
+}
+.card:hover{
+  gap: 50px;
 }
 .card-title{
   margin: 0px;
