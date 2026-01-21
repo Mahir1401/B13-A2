@@ -275,7 +275,6 @@ height: 30px;
 margin-left: -45px;
 }
 .host-section{
-  background: rgba(26, 11, 46, 1);
   padding: 60px;
 }
 .video-card{
@@ -297,6 +296,7 @@ margin-left: -45px;
   justify-content: center;
   align-items: flex-start;
   padding: 20px 20px 0px 20px;
+  gap: 15px;
 }
 .videos{
    width: 380px;
@@ -316,7 +316,6 @@ margin-left: -45px;
   padding-bottom: 30px;
 }
 .video-section{
-  background: rgba(26, 11, 46, 1);
   margin: 0px;
 }
 .video-host-section{
@@ -325,4 +324,52 @@ margin-left: -45px;
   gap: 100px;
   padding: 120px 0px 120px 0px;
   background: rgba(26, 11, 46, 1);
+}
+@media screen and (max-width: 576px) {
+  .again-list{
+   visibility: hidden;
+  }
+  .again-burger{
+    image: url(./assets/hamburger-menu.png);
+    background-size: cover;
+background-repeat: no-repeat;
+  }
+.host-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+width: 250px;
+margin-left: -7px;
+gap: 20px;
+}
+.video-card-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.host-para{
+  gap: 20px;
+}
+.list-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+}
+.grid-section{
+  gap: 20px;
+  padding: 30px 5px;
+  background: rgba(35, 14, 61, 1);
+}
+
 }
